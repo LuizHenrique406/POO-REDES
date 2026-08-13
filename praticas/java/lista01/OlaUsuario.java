@@ -1,7 +1,11 @@
-void main() {
-    String nome = IO.readln("Qual o seu nome? ");
-    int idade = Integer.parseInt(
-        IO.readln("Qual a sua idade? "));
-    IO.println("Ola " + nome + "!");
-    IO.println("Vcoê nasceu em " + (2026 - idade));
+import java.util.Scanner;
+
+public class OlaUsuario {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Digite o seu nome: ");
+        String nome = scanner.nextLine();
+        System.out.println("Olá, " + nome + ", Bem Vindo!");
+        scanner.close();
+    }
 }
