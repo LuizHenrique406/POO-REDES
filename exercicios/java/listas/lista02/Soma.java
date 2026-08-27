@@ -1,3 +1,4 @@
+package listas.lista02;
 import java.util.Scanner;
 
 public class Soma {

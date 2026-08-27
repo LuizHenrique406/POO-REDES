@@ -1,3 +1,4 @@
+package listas.lista01;
 import java.util.Scanner;
 import java.lang.Math;
 
