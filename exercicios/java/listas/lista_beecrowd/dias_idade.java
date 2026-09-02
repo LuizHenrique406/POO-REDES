@@ -14,9 +14,9 @@ public class dias_idade {
 
         int dia = resto;
 
-        System.out.println(ano + " ano (s)");
-        System.out.println(mes + " mes (es)");
-        System.out.println(dia + " dia (s)");
+        System.out.println(ano + " ano(s)");
+        System.out.println(mes + " mes(es)");
+        System.out.println(dia + " dia(s)");
         sc.close();
     }
 }
