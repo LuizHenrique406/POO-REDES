@@ -1,6 +1,4 @@
-package listas.lista_beecrowd;
-
-public class numeros_pares {
+public class NuemerosPares {
     public static void main(String[] args) {
         for (int i = 1; i < 101; i++) {
             if (i % 2 == 0) {

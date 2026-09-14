@@ -1,6 +1,6 @@
-package listas.lista_beecrowd;
 import java.util.Scanner;
-public class preenchi_vetor {
+
+public class PreenchiVetor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] n = new int[10];

@@ -1,6 +1,6 @@
-package listas.lista_beecrowd;
 import java.util.Scanner;
-public class subs_vetor {
+
+public class SubsVetor {
     public static void main(String[] args) {
         int[] x = new int[10];
         Scanner sc = new Scanner(System.in);

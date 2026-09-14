@@ -1,7 +1,6 @@
-package listas.lista_beecrowd;
 import java.util.Scanner;
 
-public class jogo2048 {
+public class Jogo2048 {
     public static void main(String[] args) {
         int[] n = 
         {0, 0, 0, 8,

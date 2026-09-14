@@ -1,7 +1,6 @@
-package listas.lista_beecrowd;
 import java.util.Scanner;
 
-public class maior_posicao {
+public class MaiorPosicao {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num;

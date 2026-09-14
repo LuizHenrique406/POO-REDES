@@ -1,7 +1,6 @@
-package listas.lista_beecrowd;
 import java.util.Scanner;
 
-public class dias_idade {
+public class DiasIdade {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int idade = sc.nextInt();

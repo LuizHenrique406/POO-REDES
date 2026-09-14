@@ -1,4 +1,3 @@
-package listas.lista_beecrowd;
 import java.util.Scanner;
 
 class triangulo {
@@ -32,7 +31,7 @@ class retangulo {
         System.out.printf("RETANGULO: %.3f%n", area);
     }
 }
-public class areas {
+public class Areas {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double a = sc.nextDouble();

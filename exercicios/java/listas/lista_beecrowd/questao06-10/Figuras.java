@@ -1,8 +1,8 @@
-package listas.lista_beecrowd;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
-public class figuras {
+
+public class Figuras {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int f1, f2, contagem, veri, maior_num;

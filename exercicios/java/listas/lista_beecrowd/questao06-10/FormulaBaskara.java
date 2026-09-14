@@ -1,9 +1,8 @@
-package listas.lista_beecrowd;
 import java.util.Scanner;
 import java.lang.Math;
 import java.text.DecimalFormat;
 
-public class formula_baskara {
+public class FormulaBaskara {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("#.#####");

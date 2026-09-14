@@ -1,7 +1,6 @@
-package listas.lista_beecrowd;
 import java.util.Scanner;
 
-public class resto2 {
+public class Resto2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

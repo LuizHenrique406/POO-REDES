@@ -1,7 +1,6 @@
-package listas.lista_beecrowd;
 import java.util.Scanner;
 
-public class senha_fixa {
+public class SenhaFixa {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int senha_correta = 2002;
