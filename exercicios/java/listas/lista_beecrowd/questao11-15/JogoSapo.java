@@ -3,16 +3,32 @@ import java.util.Scanner;
 public class JogoSapo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int Pulo = sc.nextInt();
-        // int CanoQuant = sc.nextInt();
-        // int[] Canos = new int[CanoQuant];
-        int[] Canos = {1, 3, 6, 9, 7, 2, 4, 5, 8, 3};
-        for (int i = 0; i < Canos.length; i++) {
-            if ((Pulo - Canos[i]) <= Pulo) {
-                System.out.println("GAME OVER");
+        System.out.println("Digite a altura do Sapo: ");
+        int pulo = sc.nextInt();
+        System.out.println("Digite a quantidade de muro: ");
+        int muroquant = sc.nextInt();
+        int[] muro = new int[muroquant];
+        boolean win = true;
+        System.out.println("Insira alturas pros muros: ");
+        
+        for (int j = 0; j < muro.length; j++) {
+            int valor = sc.nextInt();
+            muro[j] = valor;
+        }
+
+        for (int i = 0; i < muro.length; i++) {
+            if ((Math.abs(pulo - muro[i])) > pulo) {
+                win = false;
                 break;
             }
         }
-        System.out.println("YOU WIN");
+
+        if (win) {
+            System.out.println("YOU WIN");
+        } else {
+            System.out.println("GAME OVER");
+        }
+
+        sc.close();
     }
 }
