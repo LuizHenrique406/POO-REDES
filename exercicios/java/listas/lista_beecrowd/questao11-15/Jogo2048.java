@@ -30,8 +30,16 @@ public class Jogo2048 {
                     if (PodeMover(jogo[k + 1][j], jogo[k][j])) {cima = true;}
                 }
             }
-            System.out.println((esquerda || direita || cima || baixo) ? "SIM" : "NAO");
+            String resposta = "";
+            if (cima || baixo || direita || esquerda) {
+                if (cima) {resposta += "UP"; }
+                if (baixo) {resposta += "DOWN"; }
+                if (direita) {resposta += "RIGHT"; }
+                if (esquerda) {resposta += "LEFT"; }
+            } else {
+                resposta = "NONE";
+            }
+            System.out.println(resposta);
         }
-        sc.close();
     }
 }
