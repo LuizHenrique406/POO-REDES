@@ -41,5 +41,6 @@ public class Jogo2048 {
             }
             System.out.println(resposta);
         }
+        sc.close();
     }
 }
