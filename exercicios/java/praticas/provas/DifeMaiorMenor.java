@@ -1,4 +1,4 @@
-// import java.util.Scanner;
+package provas;
 
 public class DifeMaiorMenor {
     public static int MaiorMenor(int[] x) {
@@ -19,7 +19,6 @@ public class DifeMaiorMenor {
         return diferenca; 
     }
     public static void main(String[] args) {
-        // Scanner sc = new Scanner(System.in);
         int[] a = {234, 343, 5676, 123, 5765};
         int resultado = MaiorMenor(a);
         System.out.println(resultado);
