@@ -1,4 +1,4 @@
-package listas.lista01;
+package lista01;
 import java.util.Scanner;
 
 public class OlaUsuario {

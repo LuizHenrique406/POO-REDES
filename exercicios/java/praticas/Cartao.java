@@ -1,4 +1,3 @@
-package praticas_aleatorias;
 import java.util.Scanner;
 
 public class Cartao {

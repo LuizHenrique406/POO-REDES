@@ -1,4 +1,3 @@
-package listas_for;
 import java.util.ArrayList;
 
 public class lista {
