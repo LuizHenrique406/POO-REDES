@@ -1,5 +1,4 @@
-package provas;
-
+package exercicios.java.praticas.provas;
 import java.util.ArrayList;
 
 public class lista {

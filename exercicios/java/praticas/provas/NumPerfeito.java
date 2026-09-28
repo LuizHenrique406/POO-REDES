@@ -1,4 +1,4 @@
-package provas;
+package exercicios.java.praticas.provas;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;

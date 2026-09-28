@@ -1,4 +1,4 @@
-package provas;
+package exercicios.java.praticas.provas;
 
 public class DifeMaiorMenor {
     public static int MaiorMenor(int[] x) {
