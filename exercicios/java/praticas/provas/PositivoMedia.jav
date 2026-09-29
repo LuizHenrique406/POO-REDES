@@ -11,7 +11,6 @@ public class PostivosMedia {
                 numspos++;
                 soma += num;
             }
-            
         }
             System.out.printf("%d valores positivos\n%.1f", numspos, soma / numspos);
             sc.close();
