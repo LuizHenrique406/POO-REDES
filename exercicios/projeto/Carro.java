@@ -3,7 +3,7 @@ public class Carro{
     private String marca;
     private String modelo;
     private int velocidade;
-    public carro(String Placa, String marca, String modelo, int velocidade){
+    public Carro(String Placa, String marca, String modelo, int velocidade){
         this.Placa = Placa;
         this.marca = marca;
         this.modelo = modelo;
@@ -13,13 +13,13 @@ public class Carro{
     public void acelerar(){
         velocidade += 10;
     }
-    public void frear(){
+    public void freiar(){
         velocidade -= 10;
         if (velocidade < 0) {
             velocidade = 0;
         }  
     }
     public void exibir(){
-        System.out.printf("%s - %s %s - velocidade: %d km/h", Placa, marca, modelo, velocidade);
+        System.out.println(Placa + " - " + marca + " " + modelo + " - " + "velocidade: " + velocidade + " km/h");
     }
 }
