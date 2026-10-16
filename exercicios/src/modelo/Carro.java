@@ -1,3 +1,5 @@
+package src,modelo;
+
 public class Carro{
     private String Placa;
     private String marca;
@@ -26,7 +28,6 @@ public class Carro{
     public static int getQuantidade() {
         return quantidade;
     }
-    
     public String getPlaca(){
         return this.Placa;
     }
