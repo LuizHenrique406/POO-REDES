@@ -1,4 +1,4 @@
-package exercicios.java.praticas.beecrowd;
+package praticas.beecrowd;
 import java.util.Scanner;
 
 public class Bee1072 {
