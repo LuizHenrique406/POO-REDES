@@ -28,6 +28,9 @@ class Turma {
     public int getQuantidade() {
         return this.quantidade;
     }
+    public int getCodigo() {
+        return this.codigo;
+    }
     public void listar() {
         for (int i = 0; i < this.quantidade; i++) {
             System.out.println("Matrícula: " + this.alunos[i].getMatricula() + "\nNome: " + this.alunos[i].getNome() + "\nNota: " + this.alunos[i].getNota());

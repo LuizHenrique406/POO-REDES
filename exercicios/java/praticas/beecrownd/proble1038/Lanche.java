@@ -1,4 +1,4 @@
-package praticas.beecrowd.proble1038;
+package proble1038;
 
 public class Lanche {
     private int codigo;

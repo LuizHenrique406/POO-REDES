@@ -1,0 +1,1 @@
+# Guarda uns projetos pequenos aqui, só o básico

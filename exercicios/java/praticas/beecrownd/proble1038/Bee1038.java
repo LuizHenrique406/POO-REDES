@@ -1,4 +1,4 @@
-package praticas.beecrowd.proble1038;
+package proble1038;
 import java.util.Scanner;
 public class Bee1038 {
     public static void main(String[] args) {

@@ -1,6 +1,8 @@
+package proble1072;
+
 import java.util.Scanner;
 
-public class Q1072 {
+public class Bee1072 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
