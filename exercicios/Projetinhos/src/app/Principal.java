@@ -1,7 +1,7 @@
 package src.app;
 import src.modelo.Carro;
-import src.modelo.Motorista;
 import src.modelo.Garagem;
+import src.modelo.Motorista;
 
 public class Principal{
     public static void main(String[] args) {
@@ -9,10 +9,10 @@ public class Principal{
         Carro carro2 = new Carro("KJ35S", "Fiat", "Uno", 301);
         Carro carro3 = new Carro("HG75H", "Fiat", "Estrada", 143);
 
-        Motor motorista1 = new Motor("Jõao", carro1);
-        Motor motorista2 = new Motor("Maria", carro2);
+        Motorista motorista1 = new Motorista("Jõao", carro1);
+        Motorista motorista2 = new Motorista("Maria", carro2);
 
-        Garagem garagem1 = new Garagem(carro1);
+        Garagem garagem1 = new Garagem();
 
         System.out.println("=== VEÍCULOS ===\n");
         carro1.exibir();

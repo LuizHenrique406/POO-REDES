@@ -1,9 +1,9 @@
 package src.modelo;
 
-public class Motor {
+public class Motorista {
     private String nome;
     private Carro carro;
-    public Motor(String nome, Carro carro) {
+    public Motorista(String nome, Carro carro) {
         this.nome = nome;
         this.carro = carro;
     }
