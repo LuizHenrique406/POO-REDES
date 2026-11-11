@@ -17,15 +17,15 @@ public class Produto {
     public void adicionar() {
         quantidade++;
     }
-    public void AdcionarCodigo() {
+    public void setAdcionarCodigo() {
         System.out.println("Digite um código para verificação de categoria:");
         codigo = sc.nextInt();
     }
-    public void NovoPreco() {
+    public void setNovoPreco() {
         System.out.println("Digite um novo preço:");
         preco = sc.nextDouble();
     }
-    public void NovoNome() {
+    public void setNovoNome() {
         System.out.println("Digie um novo nome para o produto:");
         nome = sc.nextLine();
     }
