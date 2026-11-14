@@ -1,3 +1,4 @@
+package exercicios.java.praticas.geral.simples;
 import java.util.Scanner;
 
 public class NotaAluno {

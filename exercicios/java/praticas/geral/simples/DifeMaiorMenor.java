@@ -1,3 +1,4 @@
+package exercicios.java.praticas.geral.simples;
 public class DifeMaiorMenor {
     public static int MaiorMenor(int[] x) {
         int menor = x[0];
