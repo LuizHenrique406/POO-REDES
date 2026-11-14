@@ -1,4 +1,4 @@
-package src.modelo;
+package Fabrica.modelo;
 
 public class Carro{
     private String Placa;

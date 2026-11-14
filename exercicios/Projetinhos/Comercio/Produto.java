@@ -4,22 +4,16 @@ import java.util.Scanner;
 public class Produto {
     Scanner sc = new Scanner(System.in);
     private int quantidade;
-    private int codigo;
     private double preco;
     private String nome;
 
     public Produto(int quantidade, int codigo, double preco, String nome) {
         this.quantidade = quantidade;
-        this.codigo = codigo;
         this.preco = preco;
         this.nome = nome;
     }
     public void adicionar() {
         quantidade++;
-    }
-    public void setAdcionarCodigo() {
-        System.out.println("Digite um código para verificação de categoria:");
-        codigo = sc.nextInt();
     }
     public void setNovoPreco() {
         System.out.println("Digite um novo preço:");
@@ -31,9 +25,6 @@ public class Produto {
     }
     public int getQuantidade() {
         return quantidade;
-    }
-    public int getCodigo() {
-        return codigo;
     }
     public double getPreco() {
         return preco;

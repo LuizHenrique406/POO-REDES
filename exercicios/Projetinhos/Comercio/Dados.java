@@ -1,7 +1,8 @@
+import java.util.ArrayList;
 
-
-// objeto cliente[senha, email]
-public record Dados {
-    private Cliente cliente;
-
+public class Dados {
+    private ArrayList<Cliente> cliente;
+    public Dados(Cliente cliente) {
+        this.cliente = new ArrayList<>();
+    }
 }
