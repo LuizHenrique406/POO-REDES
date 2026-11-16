@@ -1,4 +1,4 @@
-package Comercio;
+package comercio;
 import java.util.Scanner;
 
 public class Cliente {

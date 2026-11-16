@@ -1,7 +1,7 @@
-package Fabrica.app;
-import Fabrica.modelo.Carro;
-import Fabrica.modelo.Garagem;
-import Fabrica.modelo.Motorista;
+package fabrica.app;
+import fabrica.modelo.Carro;
+import fabrica.modelo.Garagem;
+import fabrica.modelo.Motorista;
 
 public class Principal{
     public static void main(String[] args) {

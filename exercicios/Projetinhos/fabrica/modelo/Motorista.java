@@ -1,4 +1,4 @@
-package Fabrica.modelo;
+package fabrica.modelo;
 
 public class Motorista {
     private String nome;

@@ -1,4 +1,4 @@
-package Fabrica.modelo;
+package fabrica.modelo;
 import java.util.ArrayList;
 
 public class Garagem {

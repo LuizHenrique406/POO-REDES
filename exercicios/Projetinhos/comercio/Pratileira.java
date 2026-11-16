@@ -1,3 +1,4 @@
+package comercio;
 import java.util.ArrayList;
 
 public class Pratileira {
