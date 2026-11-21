@@ -1,6 +1,6 @@
 package lista03.Q1;
 
-public class Principal {
+public class Main {
     public static void main(String[] args) {
         Tarefa calendario = new Tarefa();
         calendario.adiconarAcoes();
